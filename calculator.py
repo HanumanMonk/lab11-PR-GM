@@ -1,3 +1,7 @@
+# https://github.com/HanumanMonk/lab11-PR-GM.git
+# Partner 1: Phu Reed
+# Partner 2: Grant Martin
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
@@ -42,5 +46,14 @@ def logarithm(a, b):
 def exponent(a, b):
     return a**b
 
+def mul (a, b):
+    return a*b
 
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    else:
+        return a/b
 
+def exp(a,b):
+    return a**b
