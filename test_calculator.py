@@ -1,3 +1,7 @@
+# https://github.com/HanumanMonk/lab11-PR-GM.git
+# Partner 1: Phu Reed
+# Partner 2: Grant Martin
+
 import unittest
 from calculator import *
 
